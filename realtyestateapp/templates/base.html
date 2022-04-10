@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="index,follow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="лучше всех знаки зодиака для любви секса отношений и влечения. ОВЕН, ТЕЛЕЦ, БЛИЗНЕЦЫ, РАК, ЛЕВ, ДЕВА, ВЕСЫ, СКОРПИОН, СТРЕЛЕЦ, КОЗЕРОГ, ВОДОЛЕЙ, РЫБЫ. Сексуальная и интимная совместимость>">
+
+    <title>{% block title %}Мой сайт{% endblock %}</title>
+
+    <style type="text/css">
+
+    a {
+    text-decoration: none; /* Убираем подчёркивание */
+   }
+
+   .block1 {
+    width: 1100px;
+    background: #FFFFFF;
+    padding: 5px;
+    padding-right: 20px;
+    position: relative;
+    float: center;
+    margin: auto;
+    font-size: 160%;
+   }
+
+    .box {
+    font-size: 200%;
+    }
+
+
+    .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    font-size: 160%;
+    width: 1800px;
+}
+
+#con1{
+    padding-left: 50px;
+    width: 250px;
+
+    height: 30px;
+    border-right: 0px;
+
+}
+
+#con2{
+    padding-left: 50px;
+    width: 250px;
+
+    height: 30px;
+    border-right: 0px;
+
+
+}
+#con3{
+    padding-left: 50px;
+    width: 250px;
+
+    height: 30px;
+    border-right: 0px;
+
+}
+#con4{
+    padding-left: 50px;
+    width: 250px;
+
+    height: 30px;
+    border-right: 0px;
+}
+
+#con5{
+    padding-left: 50px;
+    width: 250px;
+
+    height: 30px;
+    border-right: 0px;
+}
+#con6{
+    padding-left: 50px;
+    width: 250px;
+
+    height: 30px;
+    border-right: 0px;
+}
+
+
+    </style>
+
+
+</head>
+<body>
+
+<center>
+<h1> <IMG class="displayed" src="/media/media/logo1.jpg" style="width:1800px; height:200px;"></h1>
+
+
+
+<div class="container">
+    <div id="con1"> <a href="{% url 'index' %}">Главная</a> </div>
+    <div id="con2"> <a href="{% url 'fire' %}">Огонь</a></div>
+    <div id="con3"><a href="{% url 'earth' %}">Земля</a></div>
+    <div id="con4"> <a href="{% url 'air' %}">Воздух</a> </div>
+    <div id="con5">  <a href="{% url 'water' %}">Вода</a></div>
+    <div id="con6"><a href="{% url 'statia' %}">Статьи</a></div>
+</div>
+</center>
+
+ {% block content %}{% endblock %}
+
+
+
+
+<center>
+<h3> <IMG class="displayed" src="/media/media/logo1.jpg" style="width:1300px; height:50px;"></h3>
+</center>
+
+</body>
+</html>
